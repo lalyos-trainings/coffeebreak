@@ -19,7 +19,12 @@ public class CountDown {
 			Date coffe = sdf.parse(coffeBreak);
 		
 			long minutesLeft = (coffe.getTime() - now.getTime())/60000;
-			logger.info("minutes left till coffe break: {}", minutesLeft);
+			
+			if (minutesLeft < 0) {
+				logger.info("coffe break is over !");
+			} else {
+				logger.info("minutes left till coffe break: {}", minutesLeft);
+			}
 			
 			logger.info("press any key ... ");
 			System.in.read();
