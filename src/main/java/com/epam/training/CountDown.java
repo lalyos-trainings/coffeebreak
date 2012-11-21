@@ -5,10 +5,8 @@ import java.text.*;
 import org.slf4j.*;
 
 public class CountDown {
-    private static final SimpleDateFormat sdf = new SimpleDateFormat(
-            "yyyy.MM.dd HH:mm");
-    private static final Logger logger = LoggerFactory
-            .getLogger(CountDown.class);
+    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd HH:mm");
+    private static final Logger logger = LoggerFactory.getLogger(CountDown.class);
 
     public static void main(String[] args) throws Exception {
         VeryKomplex complex = new VeryKomplex();
