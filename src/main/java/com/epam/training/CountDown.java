@@ -26,7 +26,7 @@ public class CountDown {
                 logger.info("minutes left till coffe break: {}", minutesLeft);
             }
 
-            logger.info("press any key ... ");
+            logger.info("press any key ..");
             System.in.read();
         }
     }
