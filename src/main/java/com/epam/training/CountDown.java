@@ -15,6 +15,7 @@ public class CountDown {
         while (true) {
             Date now = new Date();
             logger.debug("coffeBreak: {}", coffeBreak);
+            logger.debug("complex ojjektum: {}", complex);
             Date coffe = sdf.parse(coffeBreak);
 
             long minutesLeft = (coffe.getTime() - now.getTime()) / 60000;
