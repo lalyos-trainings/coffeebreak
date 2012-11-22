@@ -10,7 +10,7 @@ public class CountDown {
 
     public static void main(String[] args) throws Exception {
         VeryKomplex complex = new VeryKomplex();
-        String coffeBreak = "2012.11.21 10:51";
+        String coffeBreak = "2012.11.22 11:51";
 
         while (true) {
             Date now = new Date();
